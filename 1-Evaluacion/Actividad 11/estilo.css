@@ -1,0 +1,37 @@
+body{
+	background-color:black;
+	color:white;
+}
+
+div.indice{
+
+	position:fixed;
+	
+	
+}
+#menu{
+	position:absolute;
+	left:0px;
+	color:white;
+	width:250px;
+	height:600px;
+}
+
+#menu ul{
+	list-style:none;
+}
+
+#menu li{
+		font-size:15px;
+		color:white;
+		
+}
+
+div.texto{
+	color:white;
+	width:1000px;
+	margin-left:255px;
+	border-left:1px solid white;
+	padding-left:20px;
+
+}

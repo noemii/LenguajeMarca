@@ -1,0 +1,58 @@
+body{
+	color:black;
+	background-color:black;
+	position:absolute;
+}
+
+div.cabecera{
+		width:1335px;
+		height:370px;
+		background-image: url('carousel-wolf-1400x500.jpg');
+}
+#menu{
+	position:absolute;
+	margin-left:-40px;
+	margin-top:-15px;
+}
+
+#menu ul{
+	list-style: none;
+	
+	}
+
+#menu li{
+	text-decoration:none;
+	width:179px;
+	padding:5px;
+	float:left;
+	border:1px solid white;
+	color:white;
+	font-size:14pt;
+	text-align:center;
+	}
+
+div.contenido{
+	width:1335px;
+	margin-top:35px;
+	color:white;
+	margin-left:10px;
+	margin-top:70px;
+}
+
+div.texto{
+		font-style:italic;
+		font-color:grey;
+		position:absolute;
+		width:660px;
+		height:600px;
+		text-align: justify;
+}
+
+div.pie{
+	width:1335px;
+	height:20px;
+	border:1px solid red;
+	margin-top:90px;
+	color:white;
+}
+
