@@ -1,0 +1,16 @@
+body{
+	background-image:url('hoja.jpg');
+	background-repeat: no-repeat;
+	text-align:center;
+	background: #FFFFFF;
+}
+
+table{
+	color:black;
+	font-size:14pt;
+	border-spacing:1;
+}
+td{
+	padding:0px;
+
+}

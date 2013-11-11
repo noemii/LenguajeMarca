@@ -1,0 +1,25 @@
+ body{ 
+      background: #FFFFFF
+      url("hoja.jpg"); 
+      background-repeat:no-repeat;
+      background-position:top left;
+      text-align:center;
+      font-family:"Book Antiqua";
+      
+    }
+
+    thead{
+    	text-align: right;
+    }
+
+     tbody{
+    	text-align: right;
+    	font-weight: bold;
+    	font-size: 24pt;
+    	vertical-align: bottom;
+
+    }
+
+    tfoot{
+    	font-size:12pt;
+    }
