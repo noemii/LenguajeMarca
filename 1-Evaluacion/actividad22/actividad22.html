@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<title>Actividad 22-Formulario</title>
+			<link rel="stylesheet" href="">
+	</head>
+	<body>
+		<hr>
+		<h1>Formulario1</h1>
+			<form action="#" method="get">
+				
+				Introduce tu nombre:<input type="texto" name="nombre" size="50"><br>
+				<input type="submit" value="Prueba este formulario">
+			</form>
+			<hr>
+
+		<h1>Formulario 2</h1>
+		<p>
+			En el siguiente formulario se utilizan campos de tipo textarea. Además tiene tres campos de tipo oculto ("hidden") con los siguientes nombres y valores:
+
+		</p>
+
+			<ul>
+				<li>userid:"daw"</li>
+				<li>forn_name:"ejercicio"</li>
+				<li>topic:"textarea</li>
+			</ul>
+		<br>
+		<p style="font-size:18pt;font-weight:bold;color:blue;"> Información sobre la página</p>
+
+		<textarea type="hidden" userid="daw" forn-name="ejercicio"topic="textarea" rows="10" cols="60">
+		</textarea>
+		<br>
+
+		encontré esta página en:<br>
+		<textarea type="hidden" userid="daw" forn-name="ejercicio"topic="textarea" rows="2" cols="60">
+		</textarea>
+		<br>
+
+		correo electrónico:<br>
+		<textarea type="hidden" userid="daw" forn-name="ejercicio"topic="textarea" rows="2" cols="30">
+		</textarea>
+		<br>
+
+		<input type="submit" value="enviar">
+
+		<hr>
+
+		<h1>Formulario 3</h1>
+
+	    <p> ¿Cuáles de estos deportes ves en televisión?</p>
+	    <input type="checkbox" name="futbol" checked> Futbol   <br>
+	    <input type="checkbox" name="Formula 1"> Formula 1   <br>
+	    <input type="checkbox" name="natacion" checked> natacion   <br>
+	    <input type="checkbox" name="Tiro con arco"> Tiro con arco   <br>
+	    <input type="checkbox" name="Baloncesto"> Baloncesto   <br>
+
+	    <hr>
+
+		<h1>Formulario 4</h1>
+
+	    <p> ¿Cuáles de estos deportes ves en televisión?</p>
+	    <input type="radio" name="futbol" checked> Futbol   <br>
+	    <input type="radio" name="Formula 1"> Formula 1   <br>
+	    <input type="radio" name="natacion"> natacion   <br>
+	    <input type="radio" name="Tiro con arco"> Tiro con arco   <br>
+	    <input type="radio" name="Baloncesto"> Baloncesto   <br>
+
+	    <hr>
+
+		<h1>Formulario 5</h1>
+
+	    <p> Listas de opciones</p>
+	    <p>¿Cual es tu sistema favorito?(Desplegable)</p>
+	    <select name="sistema">
+			<option value="Windows">Windows</option>
+			<option value="Mac">Mac</option>
+			<option value="Unix">Unix</option>		
+	     </select>
+		<p>¿Cual es tu sistema favorito? (lista)</p>
+	     <select name="sistema"size="3" >
+			<option value="Windows">Windows</option>
+			<option value="Mac">Mac</option>
+			<option value="Unix">Unix</option>		
+	     </select>
+
+	     <p>¿Cual es tu sistema favorito? (multiselect)</p>
+	     <select name="sistema" multiple>
+			<option value="Windows">Windows</option>
+			<option value="Mac">Mac</option>
+			<option value="Unix">Unix</option>		
+	     </select>
+
+	     <br>
+	     <input type="submit" value="enviar"> <input type="reset" value="reiniciar">
+
+	     <hr>
+
+	     <h1>Forumlario 6</h1>
+	     <p>fieldset</p>
+	     <p>¿Cual es tu navegador favorito?</p>
+
+	     <fieldset>
+	     	<legend>Elige un navegador:</legend>
+	     
+	     <input type="radio" name="navegador">Firefox<br>
+	    <input type="radio" name="navegador">Chrome <br>
+	    <input type="radio" name="navegador">Safari <br>
+	    <input type="radio" name="navegador"> Explorer <br>
+	    <input type="radio" name="navegador"> Opera  <br>
+	     </fieldset>
+
+	      <br>
+	     <input type="submit" value="enviar"> <input type="reset" value="reiniciar"
+	</body>
+</html>
