@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Actividad 24</title>
+		<link rel="stylesheet" href="">
+
+		<style>
+			body{
+				font-size:18px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h1>Formulario de alta de usuario</h1>
+		<table border="1" width="870px" cellpading="50px">
+			<tr>
+				<td colspan="3"  style="text-align:right;">
+					Identificador de nuevo usuario <input type="text" value="usu_012345" disabled>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<table border="1" width="100%">
+						<tr>
+							<td style="text-align:right;">
+								Nombre:
+							</td>
+							<td>
+								<input type="text" name="nombre" style="width:100%;">
+							</td>
+							<td style="text-align:right;">
+								Apellidos: 
+							</td>
+							<td>
+								<input type="text" name="apellidos" style="width:100%;">
+							</td>
+						</tr>
+						<tr>
+							<td  style="text-align:right;">
+								Contraseña:
+							</td>
+							<td>
+								 <input type="password" name="contraseña" value"123" style="width:100%;">
+							</td>
+							<td style="text-align:right;">
+								Confirmar contraseña:
+							</td>
+							<td>
+								<input type="password" name="contraseña" value"123" style="width:100%;">
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+			<tr>
+				<td style="text-align:right;" width="25%">
+					Email:
+				</td>
+				<td>
+					<input type="text" style="width:100%" name="email">
+				</td>
+			</tr>
+
+			<tr>
+				<td style="text-align:right;">
+					Sexo:
+				</td>
+				<td>
+					<input type="radio" name="Varón">Varón
+					<input type="radio" name="Mujer" checked> Mujer
+				</td>
+			</tr>
+
+			<tr>
+				<td style="text-align:right;">
+					Aficciónes:
+				</td>
+				<td>
+					<input type="checkbox" name="Deporte">Deporte <br>
+					<input type="checkbox" name="Lectura" checked>Lectura <br>
+					<input type="checkbox" name="Cine"> Cine <br>
+				</td>
+			</tr>
+
+			<tr>
+				<td style="text-align:right;">
+					País
+				</td>
+				<td>	
+					<select name="Pais" >
+						<option value="Francia"> Francia</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td style="text-align:right;">
+					Colores favoritos :
+				</td>
+
+				<td>
+					<select name="colores" multiple>
+						<option value="Rojo" selected>Rojo</option>
+						<option value="Verde">Verde</option>
+						<option value="Azul" selected>Azul</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td style="text-align:right;">
+					Subir su foto:
+				</td>
+				<td>
+					<input type="submit"> no file selected
+				</td>
+			</tr>
+
+			<tr>
+				<td style="text-align:right;">
+					Comentarios <br>	
+					personales
+				</td>
+				<td>
+					<textarea name="texto" placeholder="Escriba aquí su comentario"cols="30" rows="5"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="text-align:center">
+					<input type="reset" name="resetear">
+					<input type="submit" name="enviar"> 
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="3" style="text-align:center">
+					<input type="submit" value="modificar datos del usuario" disabled>
+					
+				</td>
+			</tr>
+		</table>
+	
+	</body>
+</html>
