@@ -1,0 +1,50 @@
+body{
+	font-family: "calibri";
+}
+
+
+.titulo{
+	color:orange;
+	font-weight: bold;
+	font-size:12pt;
+	margin-top:30px;
+}
+
+.subtitulo{
+	font-size:18pt;
+	font-weight: bold;
+	margin-top:-2px;
+}
+
+img{
+	margin:auto;
+	display:block;
+}
+
+.texto{
+	font-size:11pt;
+}
+
+.etiqueta{
+	color:#11b3ed;
+}
+
+.negra{
+	font-weight: bold;
+}
+
+.pie{
+	color:orange;
+}
+
+.titulo2{
+	font-weight: bold;
+	color:#0c3058;
+	font-size:14pt;
+}
+
+.titulo3{
+	font-weight: bold;
+	color:#0c3058;
+	font-size:17pt;
+}
